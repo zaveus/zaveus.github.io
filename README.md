@@ -1,1 +1,1 @@
-# CS288-WebsiteProj
+# WebsiteProj
