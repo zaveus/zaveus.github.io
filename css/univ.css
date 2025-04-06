@@ -1,0 +1,30 @@
+/* Pallete = https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8*/
+
+@font-face {
+    font-family: "Coolvetica";
+    src: 
+    url(fonts/Coolvetica\ Rg.otf);
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Coolvetica";
+    src: 
+    url(fonts/Coolvetica\ Rg\ It.otf);
+    font-style: italic;
+  }
+
+
+
+body {
+
+    background-color: rgb(129, 140, 120);
+}
+
+h1 {
+    font-family: "Coolvetica";
+    font-style: normal;
+    text-align: center;
+    color: rgb(226, 224, 200);
+    letter-spacing: 1px;
+    
+}
