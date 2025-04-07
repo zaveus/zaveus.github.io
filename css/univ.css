@@ -1,4 +1,4 @@
-/* Pallete = https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8*/
+/* Pallete = https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8 */
 
 @font-face {
     font-family: "Coolvetica";
@@ -14,17 +14,19 @@
   }
 
 
-
 body {
 
-    background-color: rgb(129, 140, 120);
+    background-color:rgb(92, 114, 133);
+    padding-left: 50px;
+    padding-right: 70px;
+
 }
 
 h1 {
     font-family: "Coolvetica";
     font-style: normal;
     text-align: center;
-    color: rgb(226, 224, 200);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     
 }
