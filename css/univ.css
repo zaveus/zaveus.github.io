@@ -6,19 +6,12 @@
     url(fonts/Coolvetica\ Rg.otf);
     font-style: normal;
   }
-@font-face {
-    font-family: "Coolvetica";
-    src: 
-    url(fonts/Coolvetica\ Rg\ It.otf);
-    font-style: italic;
-  }
-
 
 body {
 
-    background-color:rgb(92, 114, 133);
-    padding-left: 50px;
-    padding-right: 70px;
+    background-color:rgb(226, 224, 200);
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
@@ -29,4 +22,26 @@ h1 {
     color: rgb(0, 0, 0);
     letter-spacing: 1px;
     
+}
+
+h2 {
+  font-family: "Coolvetica";
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  
+}
+h3 {
+  font-family: "Coolvetica";
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  
+}
+h4 {
+  font-family: "Coolvetica";
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  
 }

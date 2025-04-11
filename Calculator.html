@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function add(){
+                var num1,num2;
+                num1 = Number(document.form1.txtNum1.value);
+                num2 = Number(document.form1.txtNum2.value);
+
+                document.form1.output.value = num1 + num2;
+            }
+            function subtract(){
+                var num1,num2;
+                num1 = Number(document.form1.txtNum1.value);
+                num2 = Number(document.form1.txtNum2.value);
+
+                document.form1.output.value = num1 - num2;
+            }
+            function multiply(){
+                var num1,num2;
+                num1 = Number(document.form1.txtNum1.value);
+                num2 = Number(document.form1.txtNum2.value);
+
+                document.form1.output.value = num1 * num2;
+            }
+            function divide(){
+                var num1,num2;
+                num1 = Number(document.form1.txtNum1.value);
+                num2 = Number(document.form1.txtNum2.value);
+
+                document.form1.output.value = num1 / num2;
+            }
+            
+        </script>
+        <h2>Calculator</h2>
+        <form name="form1" style="width: 250px; border: 2px solid black; margin: 20px; padding: 50px;">
+
+            Enter operand 1:
+            <input type="text" name="txtNum1" size="8"><br><br>
+            Enter operand 2:
+            <input type="text" name="txtNum2" size="8"><br><br>
+            <input type="button" value="+" onclick="add()">
+            <input type="button" value="-" onclick="subtract()">
+            <input type="button" value="x" onclick="multiply()">
+            <input type="button" value="/" onclick="divide()"><br><br>
+            <input type="text" name="output">
+        </form>
+    </body>
+</html>
